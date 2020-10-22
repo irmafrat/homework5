@@ -73,7 +73,8 @@ footer{
     min-height: 500px;
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
-  
+    vertical-align: auto;
+    align-items: center;
 }
 
 .card {
@@ -83,7 +84,7 @@ footer{
   padding: 0 0 50px 0;
   /*Your code here.*/
   /*Take a look at flex-basis*/
-
+  flex-basis: 400px;
 }
 
 .card > header{
@@ -143,10 +144,12 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
+  flex
 }
 
 .nav_links{
   /*Your code here again.*/
+  text-align: center;
 }
 
 .nav_item a{
