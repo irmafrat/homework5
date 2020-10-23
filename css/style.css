@@ -148,6 +148,7 @@ footer{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: start;
 }
 
 .gallery > img{
@@ -220,7 +221,19 @@ header{
     flex-basis: 200px;
   }
   /*Your code here again.*/
-  /*You will want four selectors*/  
+  /*You will want four selectors*/
+  body{
+    background: none;
+  }
+  .pricing{
+    align-items: flex-start;
+  }
+  
+  .gallery, #gallery{
+    display: none;
+  }
+  
+  
 }
 
 /*Your code here again.*/ 
